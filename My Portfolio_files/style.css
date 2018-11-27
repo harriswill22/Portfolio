@@ -1,0 +1,322 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+section {
+    width: 100%;
+    padding: 30px;
+    position: relative;
+
+}
+
+.intro {
+    background: url(https://apod.nasa.gov/apod/image/1804/MilkyVlei_Liebermann_960.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.intro h1 {
+
+    margin: 100px 0 60px;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+}
+
+.intro h2 {
+    margin: 100px 0 60px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.about-myself {
+    background:black;
+    border-top: 5px solid;
+    text-align: center;
+    padding: 50px 100px;
+}
+.image img{
+    border-radius: 60%;
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    height: auto;
+    transition: 0.1s transform ease-in-out;
+    margin-bottom: 20px;
+
+}
+.about-myself h2 {
+    color: white;
+    margin-top: 10px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.SkillSet {
+    background:rgb(222, 215, 215);
+    border-top: 5px solid;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center
+}
+
+.presentation{
+    border: 20%;
+    font-size: 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Flex-Skills{
+    flex-wrap: wrap;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+
+}
+.card {
+    max-width: 70%;
+    height: 54px;
+    padding: 2.2rem;
+    background: #fff;
+    border: 2px solid #ebecec;
+    border-radius: 50px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    margin: 1rem;
+    box-sizing: content-box;
+    transition : all 0.5s ease-out;
+    cursor: pointer;
+}
+.card:hover {
+    color: aqua;
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: all 0.5s ease-out;
+
+}
+
+.card img:hover {
+    transition: all 0.5s ease-out;
+    cursor: pointer; 
+}
+
+.card h3{
+    color: black;
+}
+
+div {
+    display: block;
+}
+
+.flex-Skills {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.card img {
+    max-width: 30px;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+.Project{
+    background:black;
+    border-top: 5px solid;
+    text-align: center;
+    padding: 50px 100px;
+    
+}
+.Project h1{
+    color: #fff;
+}
+
+
+
+
+.Contact{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+margin: 10px;
+flex-direction:column;
+}
+
+.Contact-Me{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactIcons
+{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    margin: 20px;
+}
+.contactIcons i{
+    margin: 20px;
+}
+
+
+
+.contactIcons i:hover {
+    color: blue;
+    transform: scale(2);
+    transition: all 0.5s ease-out;
+    cursor: pointer; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+
+    .services .services-container .service {
+        position: relative;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    .portfolio .projects .project {
+        width: 45%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .card {
+        max-width: 70%;
+        height: 54px;
+        padding: 2.2rem;
+        background: #fff;
+        border: 2px solid #ebecec;
+        border-radius: 50px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+        margin: 1rem;
+        box-sizing: content-box;
+        transition : all 0.5s ease-out;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .intro .content .header-group {
+        width: 350px;
+
+    }
+    .card{
+        max-width: 70%;
+        height: 54px;
+        padding: 2.2rem;
+        background: #fff;
+        border: 2px solid #ebecec;
+        border-radius: 50px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+        margin: 1rem;
+        box-sizing: content-box;
+        transition : all 0.5s ease-out;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .portfolio .projects .project {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contact .socials {
+        width: 100%;
+
+    }
+    .card {
+        max-width: 70%;
+        height: 54px;
+        padding: 2.2rem;
+        background: #fff;
+        border: 2px solid #ebecec;
+        border-radius: 50px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+        margin: 1rem;
+        box-sizing: content-box;
+        transition : all 0.5s ease-out;
+        cursor: pointer;;
+    }
+}
