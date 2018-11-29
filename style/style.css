@@ -1,371 +1,356 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
-
-
 *,
 *:before,
 *:after {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 
 section {
-    width: 100%;
-    padding: 30px;
-    position: relative;
-
+  width: 100%;
+  padding: 30px;
+  position: relative;
 }
 
 .intro {
-    background: url(https://apod.nasa.gov/apod/image/1704/NightGlows_TG_960.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-color:rgb(2, 16, 63);
-    height: 100%;
-    text-align: center;
-    color: aliceblue;
-    
+  background: url(https://apod.nasa.gov/apod/image/1704/NightGlows_TG_960.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(2, 16, 63);
+  height: 100%;
+  text-align: center;
+  color: aliceblue;
 }
 .intro h1 {
-    margin: 260px 0 60px;
-    text-transform: uppercase;
-    font-size: 3.2rem;
-    font-family: 'Taviraj', serif;
+  margin: 260px 0 60px;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-family: "Taviraj", serif;
 }
 
 .intro h2 {
-
-    margin: 100px 0 60px;
-    text-transform: uppercase;
-    font-size: 3.2rem;
-    font-family: 'Taviraj', serif;
+  margin: 100px 0 60px;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-family: "Taviraj", serif;
 }
 
 .intro h3 {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-family: 'Architects Daughter', cursive;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: "Architects Daughter", cursive;
 }
 
 .about-myself {
-    background:rgb(2, 16, 63);
-    border-top: 5px solid;
-    text-align: center;
-    padding: 50px 100px;
+  background: #282c34;
+  border-top: 5px solid;
+  text-align: center;
+  padding: 50px 100px;
 }
-.image img{
-    border-radius: 60%;
-    text-align: center;
-    margin: auto;
-    max-width: 50%;
-    height: auto;
-    transition: 0.1s transform ease-in-out;
-    margin-bottom: 20px;
-
+.image img {
+  border-radius: 60%;
+  text-align: center;
+  margin: auto;
+  max-width: 50%;
+  height: auto;
+  transition: 0.1s transform ease-in-out;
+  margin-bottom: 20px;
 }
 .about-myself h2 {
-    color: white;
-    margin-top: 10px;
-    font-size: 35px;
-    margin-bottom: 20px;
-    text-align: center;
-    display: inline-block;
-    font-family: 'Taviraj', serif;
+  color: white;
+  margin-top: 10px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Taviraj", serif;
 }
 
 .SkillSet {
-    background:rgb(222, 215, 215);
-    border-top: 5px solid;
-    text-align: center;
-    padding: 50px 0;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content: center
+  background: rgb(222, 215, 215);
+  border-top: 5px solid;
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.presentation{
-    display: flex;
-    justify-content: center;
+.presentation {
+  display: flex;
+  justify-content: center;
 }
-.presentation p{
-    display: flex;
-align-items: center;
-    width: 60%;
-    border: 20%;
-    font-size: 20px;
-    color: white;
-    flex-wrap: wrap;
-    font-family: 'Amiri', serif;
+.presentation p {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  border: 20%;
+  font-size: 20px;
+  color: white;
+  flex-wrap: wrap;
+  font-family: "Amiri", serif;
 }
 .container {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    max-width: 100%;
-    padding: 0 1rem;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 0 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-.Flex-Skills{
-    flex-wrap: wrap;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-content: center;
-    justify-content: center;
-
+.Flex-Skills {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
 }
 .card {
+  max-width: 70%;
+  height: 54px;
+  padding: 2.2rem;
+  background: #fff;
+  border: 2px solid #ebecec;
+  border-radius: 50px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  box-sizing: content-box;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+.card:hover {
+  color: aqua;
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: all 0.5s ease-out;
+}
+
+.card img:hover {
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+
+.card h3 {
+  color: black;
+}
+
+div {
+  display: block;
+}
+
+.flex-Skills {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.card img {
+  max-width: 30px;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.Project {
+  background: #282c34;
+  border-top: 5px solid;
+  text-align: center;
+  padding: 50px 100px;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.Project h1 {
+  color: #fff;
+}
+
+.spaceapp {
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.spaceapp p {
+  width: 60%;
+  border: 20%;
+}
+.sMarta {
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.sMarta p {
+  width: 40%;
+  border: 20%;
+}
+
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.Contact-Me {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactIcons {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: black;
+  margin: 20px;
+}
+.contactIcons a {
+  color: black;
+}
+.contactIcons i {
+  margin: 20px;
+}
+
+.contactIcons i:hover {
+  color: blue;
+  transform: scale(2);
+  cursor: pointer;
+  transition: all 0.9s ease-out;
+}
+
+.clear {
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .services .services-container .service {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  .portfolio .projects .project {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .card {
+    max-width: 50%;
+    height: 50px;
+    padding: 1.2rem;
+    background: #fff;
+    border: 2px solid #ebecec;
+    border-radius: 50px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    box-sizing: content-box;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 954px) {
+  .intro .content .header-group .Projects {
+    width: 350px;
+  }
+  .about-myself p {
+    width: 150%;
+  }
+
+  .card {
     max-width: 70%;
     height: 54px;
     padding: 2.2rem;
     background: #fff;
     border: 2px solid #ebecec;
     border-radius: 50px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     margin: 1rem;
     box-sizing: content-box;
-    transition : all 0.5s ease-out;
-    cursor: pointer;
-}
-.card:hover {
-    color: aqua;
-    cursor: pointer;
-    transform: scale(1.3);
     transition: all 0.5s ease-out;
-
-}
-
-.card img:hover {
-    transition: all 0.5s ease-out;
-    cursor: pointer; 
-}
-
-.card h3{
-    color: black;
-}
-
-div {
-    display: block;
-}
-
-.flex-Skills {
+    cursor: pointer;
+  }
+  .Projects {
     display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-}
-
-.card img {
-    max-width: 30px;
-    border-radius: 6px;
-    display: block;
-    margin: 0 auto;
-}
-
-.card h3 {
-        display: block;
-        font-size: 1.17em;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-    }
-
-.Project{
-    background:rgb(2, 16, 63);
-    border-top: 5px solid;
-    text-align: center;
-    padding: 50px 100px;
-}
-
-.Projects{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
+    flex-direction: column;
     justify-content: space-around;
-}
-.Project h1{
-    color: #fff;
-}
-
-.spaceapp{
-    box-sizing: border-box;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
-.spaceapp P{
-    width: 60%;
+  }
+  .Projects video {
+    width: 130%;
+  }
+  .Projects p {
+    width: 100%;
     border: 20%;
-}
-.sMarta{
-    box-sizing: border-box;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
-
-.sMarta p{
-    width: 40%;
-    border: 20%;
-}
-
-
-.Contact{
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 20px;
-margin: 10px;
-flex-direction:column;
-}
-
-.Contact-Me{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.contactIcons
-{
-    display: flex;
-    align-items: center;
-    font-size: 40px;
-    color: black;
-    margin: 20px;
-}
-.contactIcons a{
-    color: black;
-}
-.contactIcons i{
-    margin: 20px;
-}
-
-.contactIcons i:hover {
-    color: blue;
-    transform: scale(2);
-    cursor: pointer; 
-    transition: all 0.9s ease-out;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.clear {
-    clear: both;
-}
-
-@media screen and (max-width: 800px) {
-
-    .services .services-container .service {
-        position: relative;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
-    }
-
-    .portfolio .projects .project {
-        width: 45%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-    }
-    .card {
-        max-width: 70%;
-        height: 54px;
-        padding: 2.2rem;
-        background: #fff;
-        border: 2px solid #ebecec;
-        border-radius: 50px;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
-        margin: 1rem;
-        box-sizing: content-box;
-        transition : all 0.5s ease-out;
-        cursor: pointer;
-    }
-}
-
-@media screen and (max-width: 640px) {
-
-    .intro .content .header-group {
-        width: 350px;
-
-    }
-    .card{
-        max-width: 70%;
-        height: 54px;
-        padding: 2.2rem;
-        background: #fff;
-        border: 2px solid #ebecec;
-        border-radius: 50px;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
-        margin: 1rem;
-        box-sizing: content-box;
-        transition : all 0.5s ease-out;
-        cursor: pointer;
-    }
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .portfolio .projects .project {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-    .portfolio .projects .project {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .contact .socials {
-        width: 100%;
-
-    }
-    .card {
-        max-width: 70%;
-        height: 54px;
-        padding: 2.2rem;
-        background: #fff;
-        border: 2px solid #ebecec;
-        border-radius: 50px;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
-        margin: 1rem;
-        box-sizing: content-box;
-        transition : all 0.5s ease-out;
-        cursor: pointer;;
-    }
+  .contact .socials {
+    width: 100%;
+  }
+  .card {
+    max-width: 100%;
+    height: 54px;
+    padding: 2.2rem;
+    background: #fff;
+    border: 2px solid #ebecec;
+    border-radius: 50px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    box-sizing: content-box;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+  }
+  .Projects video {
+    width: 130%;
+  }
 }
