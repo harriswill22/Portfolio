@@ -22,6 +22,63 @@ section {
   padding: 30px;
   position: relative;
 }
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 50px;
+  background: #282c34;
+  transition: 0.7s all;
+  z-index: 100;
+}
+header.alt-header {
+  background: #fff;
+}
+body.header-fixed header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
+}
+li {
+  list-style: none;
+}
+nav {
+  overflow: hidden;
+}
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  transition: 0.3s all;
+}
+
+nav a:hover {
+  background: rgb(7, 41, 154);
+}
+
+.logo {
+  float: left;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  transition: 0.7s all;
+}
+
+.alt-header .logo {
+  color:rgba(0, 0, 0, 0.1);
+}
 
 .intro {
   background: url(https://apod.nasa.gov/apod/image/1704/NightGlows_TG_960.jpg);
@@ -78,6 +135,19 @@ section {
   font-family: "Taviraj", serif;
 }
 
+.about-myself i{
+  font-size: 50px;
+  color: rgb(7, 41, 154);
+}
+.about-myself i:hover{
+  transform: scale(1.3);
+  transition: all 0.9s ease-out;
+  cursor: pointer;
+}
+.about-myself h1{
+  margin-top: 5px;
+  color: white;
+}
 .SkillSet {
   background: rgb(222, 215, 215);
   border-top: 5px solid;
@@ -132,18 +202,16 @@ section {
   margin: 1rem;
   box-sizing: content-box;
   transition: all 0.5s ease-out;
-  cursor: pointer;
+
 }
 .card:hover {
-  color: aqua;
-  cursor: pointer;
   transform: scale(1.3);
   transition: all 0.5s ease-out;
 }
 
 .card img:hover {
   transition: all 0.5s ease-out;
-  cursor: pointer;
+
 }
 
 .card h3 {
@@ -252,9 +320,8 @@ div {
 }
 
 .contactIcons i:hover {
-  color: blue;
+  color: rgb(7, 41, 154);
   transform: scale(2);
-  cursor: pointer;
   transition: all 0.9s ease-out;
 }
 
