@@ -363,7 +363,9 @@ div {
     width: 350px;
   }
   .about-myself p {
-    width: 150%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   .card {
@@ -424,7 +426,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 492px) {
   .portfolio .projects .project {
     width: 90%;
     margin-left: 5%;
@@ -458,7 +460,7 @@ div {
     background-position: center;
     background-attachment: fixed;
     background-color: rgb(2, 16, 63);
-    height: 35%;
+    height: 25%;
     text-align: center;
     color: aliceblue;
   }
@@ -466,14 +468,14 @@ div {
   .intro h1 {
     margin: 10px 0 15px;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-family: "Taviraj", serif;
   }
   
   .intro h2 {
     margin: 10px 0 10px;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-family: "Taviraj", serif;
   }
   
@@ -482,4 +484,16 @@ div {
     font-size: 0.9rem;
     font-family: "Architects Daughter", cursive;
   }
+ 
+  header {
+    display: none;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    background: #282c34;
+    transition: 0.7s all;
+    
+  }
+  
+
 }
