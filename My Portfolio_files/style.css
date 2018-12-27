@@ -175,13 +175,16 @@ div {
     text-align: center;
     padding: 50px 100px;
     
+    
 }
 .Project h1{
     color: #fff;
 }
 
-
-
+.sMarta a {
+    color: aqua;
+    text-decoration: none;
+}
 
 .Contact{
 display: flex;
@@ -219,11 +222,6 @@ flex-direction:column;
     transition: all 0.5s ease-out;
     cursor: pointer; 
 }
-
-
-
-
-
 
 
 

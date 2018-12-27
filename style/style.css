@@ -6,8 +6,7 @@
 *:after {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  
   box-sizing: border-box;
 }
 
@@ -65,12 +64,12 @@ nav a {
 }
 
 nav a:hover {
-  background: rgb(7, 41, 154);
+  background: tomato;
 }
 
 .logo {
   float: left;
-  color: #fff;
+  color: tomato;
   font-size: 50px;
   line-height: 50px;
   transition: 0.7s all;
@@ -108,6 +107,7 @@ nav a:hover {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-family: "Architects Daughter", cursive;
+  color: tomato;
 }
 
 .about-myself {
@@ -137,7 +137,7 @@ nav a:hover {
 
 .about-myself i{
   font-size: 50px;
-  color: rgb(7, 41, 154);
+  color: tomato;
 }
 .about-myself i:hover{
   transform: scale(1.3);
@@ -263,18 +263,7 @@ div {
   color: #fff;
 }
 
-.spaceapp {
-  box-sizing: border-box;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-.spaceapp p {
-  width: 60%;
-  border: 20%;
-}
+
 .sMarta {
   box-sizing: border-box;
   color: white;
@@ -287,6 +276,11 @@ div {
 .sMarta p {
   width: 40%;
   border: 20%;
+}
+.sMarta a{
+  text-decoration: none;
+  color: tomato;
+  font-size: 15px;
 }
 
 .Contact {
@@ -494,6 +488,13 @@ div {
     transition: 0.7s all;
     
   }
-  
+  .about-myself  {
+    font-size: 13px;
+    width: 100%;
+  }
 
+  .about-myself p {
+  font-size: 12px;
+    width: 100%;
+  }
 }
