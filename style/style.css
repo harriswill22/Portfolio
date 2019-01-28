@@ -498,6 +498,11 @@ div {
 
   .about-myself p {
   font-size: 12px;
-    width: 100%;
+    width: 200%;
+  }
+
+  .sMarta p {
+    width: 200%;
+    border: 100%;
   }
 }
